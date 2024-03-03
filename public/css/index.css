@@ -1,29 +1,39 @@
 .task1 {
+  display: grid;
 }
 
 .task2 {
+  display: grid;
+  grid-template-columns: max-content;
 }
 
 .task3 {
   display: grid;
+  gap: 25px 10px;
 }
 
 .task4 {
   display: grid;
 }
 .task4 .item2 {
+  order: 2;
 }
 .task4 .item4 {
+  order: 1;
 }
 .task4 .item3 {
+  order: 3;
 }
 
 .task5 {
   display: grid;
+  grid-column-start: 1;
 }
 
 .task6 {
   display: grid;
+
+  grid-column-end: 3;
 }
 
 .task7 {
